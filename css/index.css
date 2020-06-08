@@ -12,9 +12,7 @@ html{
 ::-webkit-scrollbar{
     width:8px;
 }
-::-webkit-scrollbar-track{
-    /* background-color: #55acee; */
-}
+
 ::-webkit-scrollbar-thumb{
     background-color: #ccc;
     border-radius: 10px;
@@ -204,6 +202,7 @@ section{
     }
     
     .card:hover{
+        transition: all .3s ease;
         transform: scale(1.05);
     }
 
